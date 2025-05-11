@@ -1,0 +1,34 @@
+-- CREATE database shirt_db;
+-- USE shirt_db;
+-- CREATE TABLE shirts (
+-- shirts_id INT auto_increment PRIMARY KEY,
+-- article VARCHAR(100),
+-- colour VARCHAR(100),
+-- shirt_size VARCHAR (10),
+-- last_worn varchar(500)
+-- );
+-- DESC shirts;
+-- SHOW tables;
+-- INSERT INTO shirts (article,colour,shirt_size,last_worn) VALUES
+-- ('t-shirt', 'white', 'S', 10),
+-- ('t-shirt', 'green', 'S', 200),
+-- ('polo shirt', 'black', 'M', 10),
+-- ('tank top', 'blue', 'S', 50),
+-- ('t-shirt', 'pink', 'S', 0),
+-- ('polo shirt', 'red', 'M', 5),
+-- ('tank top', 'white', 'S', 200),
+-- ('tank top', 'blue', 'M', 15);
+-- SELECT * FROM shirts;
+-- INSERT INTO shirts (article,colour,shirt_size,last_worn) VALUES ('polo shirt', 'purple', 'M', 50);
+-- USE shirt_db;
+-- SELECT article, colour FROM shirts;
+-- SELECT article,colour,shirt_size,last_worn FROM shirts WHERE shirt_size='M';
+-- SET SQL_SAFE_UPDATES = 0;
+--  UPDATE shirts SET shirt_size='L' WHERE article='polo shirt';
+ -- SELECT * FROM shirts;
+--  UPDATE shirts SET shirt_size='XS',colour='off white' where colour='white';
+-- SELECT * FROM shirts;
+-- DELETE FROM shirts WHERE last_worn=200;
+-- DELETE FROM shirts WHERE article='tank top';
+-- DELETE FROM shirts;
+ 
